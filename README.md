@@ -4,9 +4,13 @@ This small Python Lambda script polls your Tesla car (via Tesla web api), get so
 This means that you'll have a shadow Thing in AWS that reflect battery status, temperature, cordinations and other statuses.
 
 This script uses three Things:
- Battery - will keep status of level, charge state, etc.
- Temperature - will keep status of inside, outside temperature.
- Drive - will keep status of speed, location, etc.
+
+Battery - will keep status of level, charge state, etc.
+
+Temperature - will keep status of inside, outside temperature.
+
+Drive - will keep status of speed, location, etc.
+
 
 Update _config.yaml_ with you correct credentials.
 
