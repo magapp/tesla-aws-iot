@@ -1,0 +1,26 @@
+region: eu-central-1
+
+function_name: tesla_aws_iot
+handler: service.periodic
+description: Tesla to AWS IoT
+runtime: python2.7
+
+# here you should type the role you would like lambda to use when execute the function. This
+# role must have correct permissions (such as execute lambda, report to iot, etc.)
+role: lambda
+
+# you aws credentials used when deploying:
+aws_access_key_id: <Your aws access key>
+aws_secret_access_key: <Your aws secret key>
+
+dist_directory: dist
+timeout: 30
+memory: 128
+
+# Environment variables
+environment_variables:
+    TESLA_USERNAME: <Your Tesla account username>
+    TESLA_PASSWORD: <Your Tesla account password>
+    THING_BATTERY: Tesla-battery
+    THING_CLIMATE: Tesla-temperature
+    THING_DRIVE: Tesla-drive
