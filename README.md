@@ -1,5 +1,5 @@
 # tesla-aws-iot
-This small Python Lambda script polls your Tesla car (via Tesla web api), get some metrics and update corresponding AWS IoT.
+This small Python Lambda script polls your Tesla car (via Tesla web api), read some metrics and then update corresponding AWS IoT.
 
 This means that you'll have a shadow Thing in AWS that reflect battery status, temperature, cordinations and other statuses.
 
