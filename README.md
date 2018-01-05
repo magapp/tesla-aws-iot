@@ -11,7 +11,7 @@ Temperature - will keep status of inside, outside temperature.
 
 Drive - will keep status of speed, location, etc.
 
-
+## Set up
 Update _config.yaml_ with you correct credentials.
 
 To set up your working environment:
